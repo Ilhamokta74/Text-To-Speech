@@ -1,23 +1,3 @@
-"""
-Text to speech bahasa Indonesia memakai suara neural Microsoft Edge (edge-tts).
-
-Pemasangan (sekali saja):
-    python -m pip install edge-tts
-
-Cara pakai:
-    1. Simpan teks Anda di file teks.txt (satu folder dengan skrip ini, format UTF-8).
-    2. Jalankan:
-           python tts_edge.py
-       Hasilnya file hasil.mp3
-
-Contoh opsi lain:
-    python tts_edge.py --voice gadis                  # suara wanita
-    python tts_edge.py --voice ardi --rate=-10%       # suara pria, sedikit lebih pelan
-    python tts_edge.py --input cerita.txt --output cerita.mp3
-    python tts_edge.py --text "Halo, ini percobaan suara."
-    python tts_edge.py --list                         # daftar suara Indonesia
-"""
-
 import argparse
 import asyncio
 import sys
