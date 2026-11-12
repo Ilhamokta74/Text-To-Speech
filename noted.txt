@@ -1,0 +1,1 @@
+python tts_edge.py --voice gadis --rate=-4% --input teks.txt --output cerita_gadis.mp3
